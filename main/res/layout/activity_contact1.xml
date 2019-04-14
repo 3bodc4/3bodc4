@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us"
+    android:orientation="vertical"
+    android:background="@color/SkyBlue">
+
+
+
+    <TextView
+        android:id="@+id/aaaa"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="93dp"
+        android:layout_x="93dp"
+        android:layout_y="143dp"
+        android:text="email : 3bodc4@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp"
+        android:layout_x="116dp"
+        android:layout_y="190dp"
+        android:text="number : 68544545"
+        android:textAlignment="center"
+        android:textColor="@color/Black"/>
+
+    <Button
+        android:id="@+id/buton2"
+        android:layout_width="217dp"
+        android:layout_height="37dp"
+        android:layout_x="71dp"
+        android:layout_y="228dp"
+        android:background="@drawable/rounded"
+        android:text="return to home page"
+        android:textColor="@color/Black" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">homee</string>
+    <string-array name="tanks">
+        <item>tank wieght / SR   </item>
+        <item>90kg      /     30sr</item>
+        <item>100kg      /    50sr</item>
+        <item>200kg       /   70sr</item>
+        <item>30kg         /  10sr</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

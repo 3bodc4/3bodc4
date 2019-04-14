@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order"
+    android:background="@color/SkyBlue">
+
+
+    <TextView
+        android:id="@+id/te1"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="49dp"
+        android:text="choose your tank:"
+        android:textColor="@color/Black"/>
+
+
+    <Spinner
+        android:id="@+id/spi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="97dp"
+        android:layout_x="90dp"
+        android:layout_y="89dp"
+        android:entries="@array/tanks">
+
+    </Spinner>
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_x="86dp"
+        android:layout_y="141dp"
+        android:text="choose your payment:"
+        android:textSize="8pt"
+        android:textColor="@color/Black"/>
+
+    <RadioGroup
+        android:id="@+id/sss"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="186dp">
+
+        <RadioButton
+            android:id="@+id/cs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="18dp"
+            android:layout_y="236dp"
+            android:onClick="@creditCard"
+            android:text="cash" />
+
+        <RadioButton
+            android:id="@+id/creditcc"
+            android:layout_width="117dp"
+            android:layout_height="wrap_content"
+            android:layout_x="20dp"
+            android:layout_y="203dp"
+            android:text="credit card" />
+
+    </RadioGroup>
+
+
+
+
+
+</AbsoluteLayout>

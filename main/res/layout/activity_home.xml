@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home"
+    android:background="@color/SkyBlue">
+
+    <Button
+        android:id="@+id/sii"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="117dp"
+        android:layout_x="99dp"
+        android:layout_y="183dp"
+        android:text="sign up"
+        android:textColor="@color/Black"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="67dp"
+        android:background="@drawable/rounded"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="191dp"
+        android:layout_x="98dp"
+        android:layout_y="117dp"
+        android:autoText="false"
+        android:text="login"
+        android:background="@drawable/rounded"
+        android:textColor="@color/Black"/>
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-13dp"
+        android:layout_marginBottom="199dp"
+        android:layout_x="97dp"
+        android:layout_y="248dp"
+        android:text="contact us"
+        android:background="@drawable/rounded"
+        android:textColor="@color/Black"/>
+
+
+</AbsoluteLayout>

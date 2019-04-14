@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".home"
+    android:background="@color/SkyBlue">
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="250px"
+        android:layout_marginTop="98dp"
+        android:layout_x="265dp"
+        android:layout_y="6dp"
+        android:text="logout"
+        android:textColor="@color/Black"
+        android:background="@drawable/rounded"/>
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="35dp"
+        android:layout_x="110dp"
+        android:layout_y="244dp"
+        android:text="contact us"
+        android:background="@drawable/rounded"
+        android:textColor="@color/Black"/>
+
+    <Button
+        android:id="@+id/orde"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/sii"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-13dp"
+        android:layout_marginBottom="217dp"
+        android:layout_x="111dp"
+        android:layout_y="181dp"
+        android:text="order"
+        android:textColor="@color/Black"
+        android:background="@drawable/rounded"/>
+
+    <Button
+        android:id="@+id/bab"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="112dp"
+        android:text="analysis"
+        android:textColor="@color/Black"
+        android:background="@drawable/rounded"/>
+
+
+</AbsoluteLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".creditCard"
+    android:background="@color/SkyBlue">
+
+    <TextView
+        android:id="@+id/chooses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter the information:"
+        android:textSize="12pt"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="40dp"
+        android:text="enter your card number:"
+        android:textSize="8pt"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_x="1dp"
+        android:layout_y="64dp"
+        android:hint="card number"
+        android:inputType="number"
+        android:maxLength="14"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="116dp"
+        android:text="expireDate:"
+        android:textSize="8pt"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_x="0dp"
+        android:layout_y="147dp"
+        android:hint="dd/mm/yy"
+        android:inputType="datetime"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="198dp"
+        android:layout_y="115dp"
+        android:text="enter the CVV:"
+        android:textSize="8pt"
+        android:textColor="@color/Black"/>
+
+    <EditText
+        android:id="@+id/cvvv"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_x="192dp"
+        android:layout_y="144dp"
+        android:hint="cvv"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textColor="@color/Black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="do you want save your information ?"
+        android:textSize="8pt"
+        android:textColor="@color/Black"/>
+
+    <Button
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded"
+        android:text="yes"
+        android:textColor="@color/Black"
+        android:id="@+id/butons1"/>
+
+    <Button
+        android:id="@+id/butons"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="256dp"
+        android:background="@drawable/rounded"
+        android:text="no"
+        android:textColor="@color/Black" />
+
+
+
+</LinearLayout>
